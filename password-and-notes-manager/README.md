@@ -1,4 +1,4 @@
-#Password and Notes Manager
+#Password and Notes Manager:
 This project consists of password and notes manager which is built on JAVA language. It is a GUI based application. 
 To use this application, simply download all these files or fork this repository.
 After proper setup, run the file-"Login.java".

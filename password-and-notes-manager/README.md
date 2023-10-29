@@ -1,15 +1,19 @@
-#Password and Notes Manager:
-This project consists of password and notes manager which is built on JAVA language. It is a GUI based application. 
-To use this application, simply download all these files or fork this repository.
-After proper setup, run the file-"Login.java".
-After running it, click on login button.
-Initially the username is "user@gmail.com" and password is "password".
-Now, click login and hurray! you have done it.
-You can check out various options.
-You can generate a password of any length, perform encryption and decryption.
-For encryption and decryption I have used 'AES (Advance Encryption Standard)' and 'SHA-1' for hashing.
-If you want to save credentials of your accounts in your own database, just click "Add credentials"
-After adding, if you want to see the stored information just click "Search Credentials".
-These credentials are stored in a file with the help of file handling in java.
-While saving the credentials I have ensured that the password is stored in an encrypted form, which can also be verified by user by checking "account_details.txt".
-For notes manager, I have used file handling.
+# Password and Notes Manager
+This project consists of password and notes manager which is built on JAVA language. It is a GUI based application.
+
+# Description
+* This application is used to generate, store and retrieve passwords & login credentials.
+* It also performs encryption and decrytpion on texts.
+* You can store and manage your notes here.
+* It is build using the Java in-built package **secure random**, **AES algorithm** for encryption and decryption and **SHA-1** for hashing the data in specific size.
+
+# How to Install and Run the Project
+1. Clone/download this repository.
+2. Open the folder in your preferable IDE.
+3. Run the file *Login.java*
+
+# How to Use the Project
+* To use this application, follow the previous steps and then a GUI will appear on your screen.
+* Initially you can use the username as **user@gmail.com** and password as **password**
+* Now click on the login button and a different window will appear.
+* Here, you can perform the operations as per your wish.
